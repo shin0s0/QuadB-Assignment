@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hodlinfo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v6.6.0/css/all.css"/>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="logo">HODLINFO</div>
+            <div class="right-group">
+                <div class="timer">
+                    <span id="timerDisplay">60</span>
+                </div>
+
+                <div class="connect">
+                    <button id="tele">
+                        <i class="fa-brands fa-telegram"></i>
+                        Connect Telegram
+                    </button>
+                </div>
+
+                <div class="theme-toggle">
+                    <label class="switch">
+                        <input type="checkbox" id="themeToggle">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h2>Top 10 Cryptos</h2>
+        <table id="cryptoTable">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Cryptos</th>
+                    <th>Last Traded Price</th>
+                    <th>Buy / Sell Price</th>
+                    <th>Volume</th>
+                    <th>Base Unit</th>
+                </tr>
+            </thead>
+            <tbody>
+          
+            </tbody>
+        </table>
+    </main>
+
+    <div id="spinner" class="spinner"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
